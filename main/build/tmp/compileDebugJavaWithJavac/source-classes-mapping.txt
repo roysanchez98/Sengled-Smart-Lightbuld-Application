@@ -1,0 +1,10 @@
+com/example/android/sengledsmartlightapplication/DataBindingTriggerClass.java
+ com.example.android.sengledsmartlightapplication.DataBindingTriggerClass
+com/example/android/sengledsmartlightapplication/BuildConfig.java
+ com.example.android.sengledsmartlightapplication.BuildConfig
+com/example/android/sengledsmartlightapplication/databinding/FragmentSignInPageBinding.java
+ com.example.android.sengledsmartlightapplication.databinding.FragmentSignInPageBinding
+com/example/android/sengledsmartlightapplication/databinding/FragmentHomeBinding.java
+ com.example.android.sengledsmartlightapplication.databinding.FragmentHomeBinding
+com/example/android/sengledsmartlightapplication/databinding/HomeFragmentOnBinding.java
+ com.example.android.sengledsmartlightapplication.databinding.HomeFragmentOnBinding
