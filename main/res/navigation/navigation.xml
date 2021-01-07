@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signInPage">
+
+    <fragment
+        android:id="@+id/homeFragmentOn"
+        android:name="com.example.android.sengledsmartlightapplication.homeFragmentOn"
+        android:label="homeFragmentOn"
+        tools:layout="@layout/home_fragment_on">
+        <action
+            android:id="@+id/action_homeFragmentOn_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/signInPage"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragmentOn_to_optionPage2"
+            app:destination="@id/optionPage" />
+        <action
+            android:id="@+id/action_homeFragmentOn_to_contactPage"
+            app:destination="@id/contactPage" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signInPage"
+        android:name="com.example.android.sengledsmartlightapplication.SignInPage"
+        android:label="SignInPage"
+        tools:layout="@layout/fragment_sign_in_page">
+        <action
+            android:id="@+id/action_signInPage_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android.sengledsmartlightapplication.homeFragment"
+        android:label="homeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_homeFragmentOn"
+            app:destination="@id/homeFragmentOn"
+            app:popUpTo="@id/signInPage"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_optionPage2"
+            app:destination="@id/optionPage" />
+        <action
+            android:id="@+id/action_homeFragment_to_contactPage"
+            app:destination="@id/contactPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionPage"
+        android:name="com.example.android.sengledsmartlightapplication.optionPage"
+        android:label="fragment_option_page"
+        tools:layout="@layout/fragment_option_page" />
+    <fragment
+        android:id="@+id/contactPage"
+        android:name="com.example.android.sengledsmartlightapplication.contactPage"
+        android:label="contactPage"
+        tools:layout="@layout/fragment_contact_page" />
+
+</navigation>

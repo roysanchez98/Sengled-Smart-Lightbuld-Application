@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sengled SmartLight Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sengled_light_bulb_title">Sengled Ligh Bulb</string>
+    <string name="enter_username">Username:</string>
+    <string name="enter_password">Password:</string>
+    <string name="sengled_title_page">Sengled Light Bulb</string>
+    <string name="sing_in_text">Sign In:</string>
+    <string name="Submit">Submit</string>
+    <string name="Reset">Reset</string>
+    <string name="information">Information</string>
+    <string name="info_paragraph">
+        Hello! Thank you for utilizing this application. This is the Sengled Light application
+        final project for CS-376 Mobile Programming for Android. If you have any questions or
+        have a need to contact please refer to our contact tab in the menu bar.
+    </string>
+    <string name="contact_paragraph">
+        Hello! Welcome to the contact page.
+        For any inquiries please contact:
+        roysanchez@cogswell.edu
+
+        Additionally you may submit any comments
+        below.
+
+    </string>
+    <string name="contact">Contact</string>
+    <string name="contact_text">contact_paragraph</string>
+    <string name="contact_text2">\@string/contact_paragraph</string>
+    <string name="contact_text_string">\@string/contact_paragraph</string>
+    <string name="contact_button_text">Submit</string>
+    />
+</resources>
